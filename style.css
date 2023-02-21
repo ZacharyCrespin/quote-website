@@ -1,0 +1,45 @@
+@font-face {
+  font-family: Graphik;
+  src: url("fonts/Graphik-Regular.woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Means;
+  src: url("fonts/Means-Regular.woff2");
+  font-display: swap;
+}
+
+:root {
+  --white: #fdf7f1;
+  --black: #241c15;
+}
+
+body {
+  background-color: var(--white);
+  color: var(--black);
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#quote {
+  max-width: 75%;
+}
+
+h1 {
+  font-family: Means, Georgia, Times, "Times New Roman", serif;
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0.25em;
+}
+
+p {
+  font-family: Graphik, "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 0.25em;
+  text-align: right;
+}

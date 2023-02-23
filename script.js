@@ -9,3 +9,5 @@ fetch("https://random-quote-ta5ihvbchq-uc.a.run.app")
       document.title = `“${data.quote}”`;
     }
   });
+
+console.log("Use the API: https://api.quotes.zacharyc.site\nMore info on GitHub: https://github.com/ZacharyCrespin/quote-api");

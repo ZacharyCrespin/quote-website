@@ -1,14 +1,4 @@
-@font-face {
-  font-family: Graphik;
-  src: url("fonts/Graphik-Regular.woff2");
-  font-display: swap;
-}
-
-@font-face {
-  font-family: Means;
-  src: url("fonts/Means-Regular.woff2");
-  font-display: swap;
-}
+@import url("https://fonts.googleapis.com/css?family=Neucha|Patrick+Hand+SC&display=swap");
 
 :root {
   --white: #fdf7f1;
@@ -31,16 +21,16 @@ body {
 }
 
 h1 {
-  font-family: Means, Georgia, Times, "Times New Roman", serif;
-  font-size: 2rem;
-  font-weight: 700;
+  font-family: "Patrick Hand SC", sans-serif;
+  font-size: 3rem;
+  font-weight: normal;
   margin: 0.25em;
 }
 
 p {
-  font-family: Graphik, "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+  font-family: "Neucha", sans-serif;
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: normal;
   margin: 0.25em;
   text-align: right;
 }

@@ -3,8 +3,8 @@ fetch("https://random-quote-ta5ihvbchq-uc.a.run.app")
   .then((data) => {
     document.getElementById("quoteQuote").innerText = `“${data.quote}”`;
     if (data.author != "") {
-      document.getElementById("quoteAuthor").innerText = `― ${data.author}`;
-      document.title = `“${data.quote}” ― ${data.author}`;
+      document.getElementById("quoteAuthor").innerText = `&mdash;&thinsp;${data.author}`;
+      document.title = `“${data.quote}” &mdash;&thinsp;${data.author}`;
     } else {
       document.title = `“${data.quote}”`;
     }
